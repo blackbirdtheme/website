@@ -1,9 +1,17 @@
 .main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome {
+  padding-top: 40vh;
   min-height: 100vh;
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .planes {
@@ -19,10 +27,18 @@
 
 .hello {
   padding-top: 30px;
-  font-size: 3rem;
+  text-align: center;
 }
 
 .blackbird {
   font-style: bold;
-  text-shadow: 3px 2px 0px #e92741;
+  text-shadow: 3.5px 2.5px 0px var(--blackbird-red);
+}
+
+.colors {
+  width: 50em;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
 }
