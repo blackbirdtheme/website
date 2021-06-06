@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .planes {
@@ -14,4 +15,14 @@
 
 .middlePlane {
   padding-top: 100px;
+}
+
+.hello {
+  padding-top: 30px;
+  font-size: 3rem;
+}
+
+.blackbird {
+  font-style: bold;
+  text-shadow: 3px 2px 0px #e92741;
 }

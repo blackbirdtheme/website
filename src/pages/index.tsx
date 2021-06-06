@@ -22,6 +22,13 @@ export default function Home() {
             <BlackbirdPlane />
           </div>
         </div>
+        <div>
+          <h1
+            className={`${styles.hello} animate__delay-5s animate__animated animate__fadeInUp`}
+          >
+            Say hello to <span className={styles.blackbird}>blackbird</span>
+          </h1>
+        </div>
       </main>
     </div>
   );
