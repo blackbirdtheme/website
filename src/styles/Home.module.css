@@ -4,3 +4,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.planes {
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.middlePlane {
+  padding-top: 100px;
+}
