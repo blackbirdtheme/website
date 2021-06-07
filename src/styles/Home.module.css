@@ -1,14 +1,17 @@
 .main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
+/* welcome
+============================ */
+
 .welcome {
-  padding-top: 40vh;
   min-height: 100vh;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -17,8 +20,6 @@
 .planes {
   flex-direction: row;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 
 .middlePlane {
@@ -35,8 +36,26 @@
   text-shadow: 3.5px 2.5px 0px var(--blackbird-red);
 }
 
+@media only screen and (max-width: 850px) {
+  .leftPlane,
+  .rightPlane {
+    display: none;
+  }
+}
+
+/* meet the family; colors
+============================ */
+
+.meet {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
 .colors {
-  width: 50em;
+  min-width: 100px;
+  width: 50vw;
+  max-width: 800px;
   height: auto;
   padding: 0;
   margin: 0;

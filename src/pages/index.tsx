@@ -11,7 +11,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.welcome}>
           <div className={`${styles.planes}`}>
-            <div className="animate__delay-1s animate__animated animate__fadeInDown">
+            <div
+              className={`${styles.leftPlane} animate__delay-1s animate__animated animate__fadeInDown`}
+            >
               <BlackbirdPlane />
             </div>
             <div
@@ -19,7 +21,9 @@ export default function Home() {
             >
               <BlackbirdPlane />
             </div>
-            <div className="animate__delay-3s animate__animated animate__fadeInDown">
+            <div
+              className={`${styles.rightPlane} animate__delay-3s animate__animated animate__fadeInDown`}
+            >
               <BlackbirdPlane />
             </div>
           </div>
@@ -31,7 +35,7 @@ export default function Home() {
           <div className={styles.spacer} />
         </div>
         <div>
-          <h1 style={{ marginBottom: "10px" }}>Meet the family</h1>
+          <h1 className={styles.meet}>First, meet the family</h1>
           <img className={styles.colors} src="colors.svg" alt="colors" />
         </div>
       </main>
