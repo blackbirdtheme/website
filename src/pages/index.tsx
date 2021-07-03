@@ -1,6 +1,6 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import BlackbirdPlane from "../components/BlackbirdPlane";
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import BlackbirdPlane from '../components/BlackbirdPlane';
 
 export default function Home() {
   return (
@@ -8,6 +8,8 @@ export default function Home() {
       <Head>
         <title>blackbird</title>
       </Head>
+
+      {/* Planes */}
       <main className={styles.main}>
         <div className={styles.welcome}>
           <div className={`${styles.planes}`}>
@@ -27,16 +29,36 @@ export default function Home() {
               <BlackbirdPlane />
             </div>
           </div>
-          <h1
+          <div
             className={`${styles.hello} animate__delay-5s animate__animated animate__fadeInUp`}
           >
-            Say hello to <span className={styles.blackbird}>blackbird</span>
-          </h1>
-          <div className={styles.spacer} />
+            <h1>
+              Say hello to <span className={styles.blackbird}>blackbird</span>
+            </h1>
+            <h2>
+              The <span className={styles.sharpest}>sharpest</span> color theme
+              around
+            </h2>
+          </div>
         </div>
+
+        {/* Showing colors */}
         <div>
-          <h1 className={styles.meet}>First, meet the family</h1>
+          <h1 className={styles.section}>Meet the family</h1>
           <img className={styles.colors} src="colors.svg" alt="colors" />
+        </div>
+
+        {/* Showing implementation */}
+        <div className={styles.impl}>
+          <h1 className={styles.section}>
+            Wow, <i>look at that</i>
+          </h1>
+          <img
+            className={styles.implImage}
+            src="example.png"
+            alt="impl image"
+          />
+          <p>Visual Studio Code with the blackbird theme</p>
         </div>
       </main>
     </div>

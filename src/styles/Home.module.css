@@ -31,9 +31,16 @@
   text-align: center;
 }
 
+.sharpest {
+  text-decoration: underline var(--blackbird-red);
+}
+
 .blackbird {
   font-style: bold;
-  text-shadow: 3.5px 2.5px 0px var(--blackbird-red);
+  animation-name: pop-out-drop;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
 }
 
 @media only screen and (max-width: 850px) {
@@ -46,7 +53,7 @@
 /* meet the family; colors
 ============================ */
 
-.meet {
+.section {
   margin-bottom: 10px;
   margin-left: 10px;
   text-align: center;
@@ -60,4 +67,27 @@
   padding: 0;
   margin: 0;
   pointer-events: none;
+}
+
+/* implementation image
+============================ */
+
+.impl {
+  padding-top: 50px;
+}
+
+.implImage {
+  max-width: 60vw;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+@keyframes pop-out-drop {
+  0% {
+    text-shadow: 0 0 0 var(--blackbird-red);
+  }
+  100% {
+    text-shadow: 4px 3px 0px var(--blackbird-red);
+  }
 }
