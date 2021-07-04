@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import BlackbirdPlane from '../components/BlackbirdPlane';
+import Implementation from '../components/Implementation';
 
 export default function Home() {
   return (
@@ -59,6 +60,33 @@ export default function Home() {
             alt="impl image"
           />
           <p>Visual Studio Code with the blackbird theme</p>
+        </div>
+
+        {/* Implementation picture grid */}
+        <div>
+          <h1 className={styles.section}>For all your favorite stuff</h1>
+          <div className={styles.implementations}>
+            <Implementation
+              iconName="vim"
+              alt="Vim"
+              linkURL="https://github.com/blackbirdtheme/vim"
+            />
+            <Implementation
+              iconName="alacritty"
+              alt="Alacritty"
+              linkURL="https://github.com/blackbirdtheme/terminals/tree/main/alacritty"
+            />
+            <Implementation
+              iconName="visualstudiocode"
+              alt="Visual Studio Code"
+              linkURL="https://github.com/blackbirdtheme/vscode"
+            />
+            <Implementation
+              iconName="windowsterminal"
+              alt="Windows Terminal"
+              linkURL="https://github.com/blackbirdtheme/terminals/tree/main/windows_terminal"
+            />
+          </div>
         </div>
       </main>
     </div>
