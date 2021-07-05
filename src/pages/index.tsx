@@ -63,31 +63,31 @@ export default function Home() {
         </div>
 
         {/* Implementation picture grid */}
-        <div>
-          <h1 className={styles.section}>For all your favorite stuff</h1>
-          <div className={styles.implementations}>
-            <Implementation
-              iconName="vim"
-              alt="Vim"
-              linkURL="https://github.com/blackbirdtheme/vim"
-            />
-            <Implementation
-              iconName="alacritty"
-              alt="Alacritty"
-              linkURL="https://github.com/blackbirdtheme/terminals/tree/main/alacritty"
-            />
-            <Implementation
-              iconName="visualstudiocode"
-              alt="Visual Studio Code"
-              linkURL="https://github.com/blackbirdtheme/vscode"
-            />
-            <Implementation
-              iconName="windowsterminal"
-              alt="Windows Terminal"
-              linkURL="https://github.com/blackbirdtheme/terminals/tree/main/windows_terminal"
-            />
-          </div>
+        <h1 className={styles.section}>For all your favorite stuff</h1>
+        <div className={styles.implementations}>
+          <Implementation
+            iconName="vim"
+            alt="Vim"
+            linkURL="https://github.com/blackbirdtheme/vim"
+          />
+          <Implementation
+            iconName="alacritty"
+            alt="Alacritty"
+            linkURL="https://github.com/blackbirdtheme/terminals/tree/main/alacritty"
+          />
+          <Implementation
+            iconName="visualstudiocode"
+            alt="Visual Studio Code"
+            linkURL="https://github.com/blackbirdtheme/vscode"
+          />
+          <Implementation
+            iconName="windowsterminal"
+            alt="Windows Terminal"
+            linkURL="https://github.com/blackbirdtheme/terminals/tree/main/windows_terminal"
+          />
         </div>
+
+        <footer>© Matt Gleich {new Date().getFullYear()}</footer>
       </main>
     </div>
   );

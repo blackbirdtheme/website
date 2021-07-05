@@ -91,7 +91,7 @@
   gap: 50px;
   min-width: 50vw;
   filter: invert(100%) saturate(0%);
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
   flex-wrap: wrap;
 }
 
