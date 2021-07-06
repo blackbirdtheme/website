@@ -36,6 +36,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  min-width: 50vw;
 }
 
 .sharpest {
@@ -45,7 +48,6 @@
 .githubLogo {
   width: 40px;
   filter: invert(100%) saturate(0%);
-  padding-left: 30px;
 }
 
 .blackbird {
