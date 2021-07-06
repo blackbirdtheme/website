@@ -36,10 +36,19 @@ export default function Home() {
             <h1>
               Say hello to <span className={styles.blackbird}>blackbird</span>
             </h1>
-            <h2>
-              The <span className={styles.sharpest}>sharpest</span> color theme
-              around
-            </h2>
+            <div className={styles.subtitle}>
+              <h2>
+                The <span className={styles.sharpest}>sharpest</span> color
+                theme around
+              </h2>
+              <a href="https://github.com/blackbirdtheme" target="_blank">
+                <img
+                  className={styles.githubLogo}
+                  src="https://unpkg.com/simple-icons@v5/icons/github.svg"
+                  alt="blackbird's GitHub page"
+                />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -87,7 +96,13 @@ export default function Home() {
           />
         </div>
 
-        <footer>© Matt Gleich {new Date().getFullYear()}</footer>
+        <footer>
+          ©{' '}
+          <a href="https://github.com/gleich" target="_blank">
+            Matt Gleich
+          </a>{' '}
+          {new Date().getFullYear()}
+        </footer>
       </main>
     </div>
   );

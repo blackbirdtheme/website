@@ -1,3 +1,4 @@
 .implementation {
   min-width: 80px;
+  filter: invert(100%) saturate(0%);
 }

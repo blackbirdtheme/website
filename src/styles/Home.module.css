@@ -31,8 +31,21 @@
   text-align: center;
 }
 
+.subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .sharpest {
   text-decoration: underline var(--blackbird-red);
+}
+
+.githubLogo {
+  width: 40px;
+  filter: invert(100%) saturate(0%);
+  padding-left: 30px;
 }
 
 .blackbird {
@@ -90,7 +103,6 @@
   justify-content: center;
   gap: 50px;
   min-width: 50vw;
-  filter: invert(100%) saturate(0%);
   padding-bottom: 10vh;
   flex-wrap: wrap;
 }
