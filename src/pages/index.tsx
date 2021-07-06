@@ -31,7 +31,19 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff"></meta>
 
         <link rel="icon" type="image/png" href="logo.png" />
+
+        <meta charSet="utf-8" />
         <title>blackbird</title>
+
+        <meta
+          name="keywords"
+          content="blackbird, black, bird, coding, theme, vscode, Matt Gleich, matt gleich, gleich, Black Bird"
+        />
+        <meta
+          content="A sharp color scheme for computer programming"
+          name="description"
+        />
+        <meta content="Matt Gleich" name="author" />
       </Head>
 
       {/* Planes */}
