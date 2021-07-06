@@ -22,6 +22,20 @@
   display: flex;
 }
 
+.leftPlane {
+  animation-name: tilt-left;
+  animation-duration: 2s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.rightPlane {
+  animation-name: tilt-right;
+  animation-duration: 2s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
 .middlePlane {
   padding-top: 100px;
 }
@@ -120,5 +134,25 @@
 
   100% {
     text-shadow: 4px 3px 0px var(--blackbird-red);
+  }
+}
+
+@keyframes tilt-left {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes tilt-right {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(20deg);
   }
 }

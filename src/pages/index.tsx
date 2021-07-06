@@ -50,19 +50,17 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.welcome}>
           <div className={`${styles.planes}`}>
+            <div className={styles.tiltLeft}>
+              <div className={styles.leftPlane}>
+                <BlackbirdPlane />
+              </div>
+            </div>
             <div
-              className={`${styles.leftPlane} animate__delay-1s animate__animated animate__fadeInDown`}
+              className={`${styles.middlePlane} animate__delay-3s animate__animated animate__fadeInDown`}
             >
               <BlackbirdPlane />
             </div>
-            <div
-              className={`${styles.middlePlane} animate__delay-2s animate__animated animate__fadeInDown`}
-            >
-              <BlackbirdPlane />
-            </div>
-            <div
-              className={`${styles.rightPlane} animate__delay-3s animate__animated animate__fadeInDown`}
-            >
+            <div className={styles.rightPlane}>
               <BlackbirdPlane />
             </div>
           </div>
