@@ -21,3 +21,11 @@ h2 {
 *::selection {
   background-color: var(--blackbird-red);
 }
+
+a {
+  color: var(--blackbird-red);
+}
+
+a:visited {
+  color: #418fdd;
+}
