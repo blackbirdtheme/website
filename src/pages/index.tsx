@@ -108,7 +108,7 @@ export default function Home() {
             src="examples/vscode-dusk.png"
             alt="impl image"
           />
-          <p>Visual Studio Code with the blackbird theme (midnight variant)</p>
+          <p>Visual Studio Code with the blackbird theme (dusk variant)</p>
         </div>
 
         {/* Implementation picture grid */}
