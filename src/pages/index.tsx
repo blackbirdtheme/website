@@ -99,10 +99,16 @@ export default function Home() {
           </h1>
           <img
             className={styles.implImage}
-            src="example.png"
+            src="examples/vscode-midnight.png"
             alt="impl image"
           />
-          <p>Visual Studio Code with the blackbird theme</p>
+          <p>Visual Studio Code with the blackbird theme (midnight variant)</p>
+          <img
+            className={styles.implImage}
+            src="examples/vscode-dusk.png"
+            alt="impl image"
+          />
+          <p>Visual Studio Code with the blackbird theme (midnight variant)</p>
         </div>
 
         {/* Implementation picture grid */}
