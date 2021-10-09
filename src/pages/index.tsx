@@ -94,9 +94,7 @@ export default function Home() {
 
         {/* Showing implementation */}
         <div className={styles.impl}>
-          <h1 className={styles.section}>
-            Wow, <i>look at that</i>
-          </h1>
+          <h1 className={styles.section}>See it in action</h1>
           <img
             className={styles.implImage}
             src="examples/vscode-midnight.png"
@@ -138,7 +136,7 @@ export default function Home() {
 
         <footer>
           ©{' '}
-          <a href="https://github.com/gleich" target="_blank">
+          <a href="https://mattglei.ch" target="_blank">
             Matt Gleich
           </a>{' '}
           {new Date().getFullYear()}
