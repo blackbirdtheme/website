@@ -1,5 +1,5 @@
-import SvgLines from "react-mt-svg-lines";
-import styles from "../styles/components/BlackbirdPlane.module.css";
+import SvgLines from 'react-mt-svg-lines'
+import styles from '../styles/components/BlackbirdPlane.module.css'
 
 export default function BlackbirdPlane() {
   return (
@@ -23,5 +23,5 @@ export default function BlackbirdPlane() {
         />
       </svg>
     </SvgLines>
-  );
+  )
 }

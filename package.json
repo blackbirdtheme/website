@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier -w .",
+    "format::check": "prettier --check ."
   },
   "dependencies": {
     "animate.css": "^4.1.1",

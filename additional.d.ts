@@ -1,1 +1,1 @@
-declare module 'react-mt-svg-lines';
+declare module 'react-mt-svg-lines'

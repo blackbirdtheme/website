@@ -1,13 +1,13 @@
-import styles from '../styles/components/Implementation.module.css';
+import styles from '../styles/components/Implementation.module.css'
 
 export default function Implementation({
   iconName,
   alt,
   linkURL,
 }: {
-  iconName: string;
-  alt: string;
-  linkURL: string;
+  iconName: string
+  alt: string
+  linkURL: string
 }) {
   return (
     <div className={styles.implementation}>
@@ -18,5 +18,5 @@ export default function Implementation({
         />
       </a>
     </div>
-  );
+  )
 }

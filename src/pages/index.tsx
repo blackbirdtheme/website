@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import BlackbirdPlane from '../components/BlackbirdPlane';
-import Implementation from '../components/Implementation';
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+import BlackbirdPlane from '../components/BlackbirdPlane'
+import Implementation from '../components/Implementation'
 
 export default function Home() {
   return (
@@ -143,5 +143,5 @@ export default function Home() {
         </footer>
       </main>
     </div>
-  );
+  )
 }
