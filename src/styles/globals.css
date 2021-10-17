@@ -29,3 +29,16 @@ a {
 a:visited {
   color: #418fdd;
 }
+
+*::-webkit-scrollbar {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--blackbird-red);
+}
