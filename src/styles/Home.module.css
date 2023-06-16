@@ -61,7 +61,7 @@
 
 .githubLogo {
   width: 40px;
-  filter: invert(100%) saturate(0%);
+  filter: invert(90%) sepia(14%) saturate(874%) hue-rotate(327deg) brightness(109%) contrast(105%);
 }
 
 .blackbird {
